@@ -1,3 +1,24 @@
-h1 {
-  color: blue;
+body {
+  /*
+  background-color: #222;
+  color: #ddd;
+  */
+}
+
+.main-body {
+  margin: 20px;
+}
+
+.card {
+  padding: 30px;
+  box-shadow: #aaa 0px 0px 30px;
+}
+
+.profile-header-container {
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.profile-body-container {
+  text-align: justify;
 }
