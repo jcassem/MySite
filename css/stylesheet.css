@@ -52,3 +52,13 @@
 .carousel-inner h3 {
   margin-top: 0px;
 }
+
+.summary-container ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+.summary-container li {
+  list-style-type: none;
+  margin-bottom: 2px;
+}
