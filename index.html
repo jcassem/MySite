@@ -1,36 +1,125 @@
 <html>
-  <head>
-    <title>Hello</title>
-    
-    <!-- CSS LIBRARIES -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
-  </head>
-  <body>
-    <div class="main-body">
-      <div class="col-sm-12 col-md-6 col-lg-5 card">
-        <div class="col-md-4 profile-header-container">
-          <div class="row profile-picture-container">
-            <i class="fa fa-user fa-5x"></i>
+
+<head>
+  <title>Jordan Cassem</title>
+
+  <!-- CSS LIBRARIES -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+  <div class="main-body">
+    <div class="row">
+      <!-- PROFILE CARD -->
+      <div class="col-sm-12 col-md-6 card-container">
+        <div class="card" id="profile-card">
+          <div class="col-md-4 profile-header-container">
+            <div class="row profile-picture-container">
+              <i class="fa fa-user fa-5x"></i>
+            </div>
+            <div class="row profile-name-container">
+              <h1>Jordan Cassem</h1>
+            </div>
+            <div class="row profile-social-container">
+              <i class="fa fa-facebook-official fa-2x"></i>
+              <i class="fa fa-linkedin-square fa-2x"></i>
+              <i class="fa fa-envelope fa-2x"></i>
+            </div>
           </div>
-          <div class="row profile-name-container">
-            <h1>JCassem</h1>
-          </div>
-          <div class="row profile-social-container">
-            <i class="fa fa-facebook-official fa-2x"></i>  
-            <i class="fa fa-linkedin-square fa-2x"></i>
+          <div class="col-md-8 profile-body-container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet consequat facilisis. Vivamus eu elementum justo. Quisque dictum magna orci, quis tempor ipsum auctor in. Aliquam mi nibh, dictum at ligula ac, egestas varius velit. Cras
+              lacinia eget ipsum id consequat. Mauris et mollis lectus. Maecenas mattis arcu ut nunc consequat, id aliquet nulla aliquet. Nullam egestas quis arcu vel convallis. Proin vehicula mollis viverra. Quisque pulvinar est rutrum dictum viverra.
+              In eget hendrerit neque. Pellentesque ac congue felis. Vestibulum aliquam porta orci aliquet luctus.</p>
           </div>
         </div>
-        <div class="col-md-8 profile-body-container">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquet consequat facilisis. Vivamus eu elementum justo. Quisque dictum magna orci, quis tempor ipsum auctor in. Aliquam mi nibh, dictum at ligula ac, egestas varius velit. Cras lacinia eget ipsum id consequat. Mauris et mollis lectus. Maecenas mattis arcu ut nunc consequat, id aliquet nulla aliquet. Nullam egestas quis arcu vel convallis. Proin vehicula mollis viverra. Quisque pulvinar est rutrum dictum viverra. In eget hendrerit neque. Pellentesque ac congue felis. Vestibulum aliquam porta orci aliquet luctus.</p>  
+      </div>
+
+      <!-- SUMAMRY CARD -->
+      <div class="col-sm-12 col-md-6 card-column">
+        <div class="card" id="summary-card">
+          <div id="summary-carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#summary-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#summary-carousel" data-slide-to="1"></li>
+              <li data-target="#summary-carousel" data-slide-to="2"></li>
+              <li data-target="#summary-carousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <div class="summary-container">
+                  <h3>
+                    Summary 1
+                  </h3>
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Nunc quis metus id augue molestie laoreet quis quis neque.</li>
+                    <li>Aenean commodo ex vitae libero ullamcorper sollicitudin.</li>
+                    <li>Cras dictum nisi nec urna bibendum, ut venenatis quam auctor.</li>
+                    <li>Quisque feugiat sapien a tempor pellentesque.</li>
+                    <li>Etiam ullamcorper erat non eleifend consectetur.</li>
+                    <li>Nulla in ante elementum, luctus tortor eget, pulvinar sem.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="item summary-item">
+                <h3>
+                  Summary 2
+                </h3>
+                <ul>
+                  <li>Mauris vel felis nec nulla feugiat fermentum.</li>
+                  <li>Nam non dolor a urna pharetra cursus eget condimentum ligula.</li>
+                  <li>Cras placerat leo ultrices, mollis ligula vel, euismod neque.</li>
+                  <li>Vivamus dictum turpis eu finibus eleifend.</li>
+                </ul>
+              </div>
+
+              <div class="item summary-item">
+                <h3>
+                  Summary 3
+                </h3>
+                <ul>
+                  <li>Mauris congue felis at magna sagittis condimentum.</li>
+                  <li>Pellentesque sed dolor sed libero ornare ornare.</li>
+                  <li>Integer at odio et neque faucibus malesuada.</li>
+                  <li>Mauris ac leo feugiat, faucibus tortor sodales, ultrices sem.</li>
+                  <li>Aliquam vel nulla at felis sollicitudin placerat.</li>
+                  <li>Donec fringilla massa eu nulla ullamcorper, eu malesuada risus congue.</li>
+                  <li>Sed aliquet purus id leo accumsan, quis faucibus justo auctor.</li>
+                </ul>
+              </div>
+
+              <div class="item summary-item">
+                <h3>
+                  Summary 4
+                </h3>
+                <ul>
+                  <li>Quisque at risus varius, eleifend massa non, porttitor nibh.</li>
+                  <li>Phasellus imperdiet est ac mi tempus, eu convallis enim tempus.</li>
+                  <li>Donec hendrerit nulla a blandit consequat.</li>
+                  <li>Quisque vel nibh in odio imperdiet condimentum.</li>
+                  <li>Morbi at urna rutrum, accumsan purus quis, faucibus mi.</li>
+                  <li>Nulla sed tortor eu diam facilisis interdum nec ut enim.</li>
+                  <li>Vestibulum euismod justo et odio molestie mollis.</li>
+                  <li>Phasellus id lorem at sapien lobortis ullamcorper.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    
-    
-    <!-- JAVASCRIPT LIBRARIES -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+  </div>
+
+  <!-- JAVASCRIPT LIBRARIES -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/style.js"></script>
+</body>
+
 </html>

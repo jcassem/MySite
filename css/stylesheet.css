@@ -1,24 +1,54 @@
-body {
-  /*
-  background-color: #222;
-  color: #ddd;
-  */
-}
-
 .main-body {
-  margin: 20px;
+  margin: 40px;
 }
 
 .card {
   padding: 30px;
   box-shadow: #aaa 0px 0px 30px;
+  margin-bottom: 20px;
 }
 
 .profile-header-container {
   text-align: center;
-  margin: 10px 0px;
+  margin-top: 10px;
 }
 
 .profile-body-container {
   text-align: justify;
+}
+
+.profile-social-container .fa {
+  margin: 0px 5px;
+}
+
+#profile-card,
+#summary-card {
+  display: flex;
+  flex: 1;
+}
+
+.carousel-indicators li,
+.carousel-indicators .active {
+  border-color: #555;
+}
+
+.carousel-indicators .active {
+  background-color: #555;
+}
+
+#summary-carousel {
+  width: 100%;
+}
+
+.carousel-indicators {
+  bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.carousel-inner {
+  margin-bottom: 20px;
+}
+
+.carousel-inner h3 {
+  margin-top: 0px;
 }
